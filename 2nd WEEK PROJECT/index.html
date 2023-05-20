@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css" >
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <div class="container">
+      <div class="navbar" >
+        <a href="#" >Home</a>
+        <a href="#">Books</a>
+        <a href="#">Register</a>
+      </div>
+
+        
+        <h1 align="center">Welcome to Library System</h1>
+<table>
+            <tr>
+                <th> Book id </th>
+                <th> Title</th>
+                <th> Author</th>
+                <th>Genere</th>
+                <th> Availablity</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>
+                    <table>
+                     <tr>
+                        <tr ><a href="https://www.goodreads.com/book/show/20501.The_Camera">The Camera</a></tr><br>
+                        <tr>Publication Year :-1980</tr><br>
+                        <tr>Page Count :- 195 </tr>
+                        <tr>ISBN10:0821221841 </tr>
+                     </tr>
+                   </table>
+               </td>
+               <td> Ansel Adams </td>
+               <td>Genres, Photography, Art
+                Nonfiction, Reference, Science, 
+                Education</td>
+                <td>Available</td>
+
+             </tr>
+             <tr>
+                <td>2</td>
+                <td>
+                    <table>
+                        <tr><a href="https://www.goodreads.com/book/show/40121378-atomic-habits">Atomic Habits</a></tr> <br>
+                        <tr>Publication Year :-2018</tr><br>
+                        <tr>Page Count :- 319 </tr><br>
+                        <tr>ISBN 9780735211292 </tr>
+                    </table>
+                </td>
+                <td>James Clear</td>
+                <td> Nonfiction, Self Help,
+                    Psychology, Personal Development,
+                    Productivity</td>
+                <td>Available</td>    
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>
+                    <table>
+                        <tr><a href="https://www.goodreads.com/book/show/41881472-the-psychology-of-money">The Psychology of Money</a></tr> <br>
+                        <tr>Publication Year :-2020</tr><br>
+                        <tr>Page Count :- 252 </tr><br>
+                        <tr>ISBN 9781387623174 </tr>
+                    </table>
+                </td>
+                <td>Morgan Housel</td>
+                <td>Finance, Nonfiction, Psychology
+                    Business, self help,economics </td>
+                 <td>Available</td>   
+            </tr> 
+            <tr>
+                <td>4</td>
+                <td>
+                    <table>
+                        <tr><a href="https://www.goodreads.com/book/show/56047271-tastes-like-war">Tastes Like War</a></tr> <br>
+                        <tr>Publication Year :-2021</tr><br>
+                        <tr>Page Count :- 289 </tr><br>
+                        <tr>ISBN 9781952177941  </tr>
+                    </table>
+                </td>
+                <td>Grace M. Cho</td>
+                <td>Mental Health, Biography, history, memor</td>
+                <td>Not Available</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>
+                    <table>
+                        <tr><a href="https://www.goodreads.com/book/show/12609433-the-power-of-habit">The Power of Habit</a></tr> <br>
+                        <tr>Publication Year :-2012</tr><br>
+                        <tr>Page Count :- 375 </tr><br>
+                        <tr>ISBN 9781400069286 </tr>
+                    </table> 
+                </td>
+                <td>Charles Duhigg </td>
+                <td> self help, Business, Personal Development, Productivity, Psychology</td>
+                <td>Not Available</td>
+            </tr>
+
+                    
+</table> 
+        </div>
+        <div class="fm">
+    
+<form>
+        <h1 align="center" >Register </h1>
+        <label for="first name">First Name </label>
+        <input type="text" id="first name" name="first name" placeholder="Enter First Name" required> 
+       
+        <label for="last name">Last Name</label>
+        <input type="text" id="last name" name="last name" placeholder="Enter Last Name" required>
+       
+        <label for="Email id">Email Id</label>
+        <input type="email" id="Email id" name="Email id" placeholder="example@gmail.com"> <br>
+        <br>
+        
+        <input type="radio" id="Male" name="gender">
+        <label for="gender">Male</label> <br>
+       
+        <input type="radio" name="gender" id="Female">
+     <label for="gender">Female</label> <br>
+     <br>
+        
+        <label for="date of birth"> Date Of Birth</label>
+        <input type="number" id="date of birth" name="date of birth" placeholder="dd/mm/yyyy" required> <br>
+        
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age" placeholder="Enter Age" min="12" max="100" required> <br>
+        
+        <label for="password">password</label>
+        <input type="password" name="password" id="password" placeholder="Enetr_Password"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required> <br>
+       
+        <label for="confirm password">Confirm Password</label>
+        <input type="password" id="confirm password" name="confirm_password" placeholder="Confirm Password" required> <br>
+         <br>
+        <input type="submit" value="Register">
+    </form>
+  </div>
+</body>
+</html>
